@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("Helvetica.ttf");
+    }
+*{
+    margin: 0;
+}
+
+h1{
+    width: 9cm;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    margin-left: 22px;
+    font-weight: lighter;
+    letter-spacing: 30px;
+}
+.titre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    font-family: helvetica;
+}
+.code{
+    background-color: #d31f43;
+    color: white;
+}
+.haut{
+    border: solid;
+    border-right: 0;
+    border-left-width: 0;
+    border-top-width:0;
+    border-bottom-width: 2px;
+}
